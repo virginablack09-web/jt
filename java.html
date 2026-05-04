@@ -1,0 +1,264 @@
+<!DOCTYPE html><html>
+
+<head>
+  <title>Stanford University</title>
+</head>
+
+<body>
+  <style>
+    body{
+      margin: 0;
+    }
+
+    .navbar{
+      display: flex;
+      align-items: center;
+      background-color: rgb(195, 19, 19);
+      height: 55px;
+      margin-bottom: 0px;
+      position: fixed;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .h1{
+      flex: 1;
+      font-size: 25px;
+      margin-left: 18px;;
+      letter-spacing: 3px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .right{
+      margin-left: auto;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      flex: 1;
+      justify-content: flex-end;
+
+    }
+    .search1 {
+      padding: 10px 3px;
+      border: none;
+      background-color: transparent;
+      color: rgb(250, 246, 246);
+      font-size: 20px;
+      border-color: transparent;
+      padding-right: 15px;
+    }
+    .search1:hover {
+      background-color: rgb(155, 17, 17);
+    }
+
+    .button{
+      border: 0;
+      color: white;
+      background-color: transparent;
+      margin-top: 0px;
+      padding-left: 10px;
+      height: 50px;
+      
+    }
+
+    .button:hover{
+      background-color: rgb(147, 18, 18);
+    }
+    .menu{
+      margin-left: 5px;
+      font-size: 18px;
+      margin-right: 20px;
+      padding: 10px 0px;
+    }
+    .lines{
+      font-size: 30px;
+    }
+
+    .hero{
+      background-image: url("stanford.jpg");
+      height: 95vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .h2{
+      font-size: 75px;
+      color: white;
+    }
+    
+
+    .hero2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(160, 20, 20);
+      margin-top: -10px;
+      height: 7vh;
+     
+    }
+
+    .h3{
+      color: rgb(252, 250, 250);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      padding-top: 2px;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+    .arrow{
+      margin-top: -15px;
+      margin-left: 5px;
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    .scroll{
+      height: 95vh;
+      display: block;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .p2{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 45px;
+      font-weight: bolder;
+      margin-bottom: 30px;
+    }
+
+    .paragraph{
+      padding: 10px 50px;
+      display: block;
+      letter-spacing: 3px;
+      font-size: 33px;
+      margin-bottom: 30px;
+      margin-top: 0;
+    }
+
+    .p3{
+      text-align: center;
+      line-height: 45px;
+      
+      display: block;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      
+    }
+    
+    .about-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+      
+    .about-stanford {
+      font-size: 20px;
+      background-color: rgb(192, 27, 27);
+      border: none;
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-bottom: 15px;
+      padding-top: 15px;
+      color: white;
+    }
+
+    .about-stanford:hover {
+      background-color: rgb(132, 27, 27);
+      cursor: pointer;
+    }
+
+    .img-66{
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(203, 93, 93);
+      gap: 20px;
+      padding: 30px 0px;
+      margin-top: 25px;
+      background-size: cover;
+    }
+    .img668{
+      width: 80%;
+      height: auto;
+    }
+    
+    .img667{
+      width: 80%;
+      height: auto;
+    }
+
+    .academics{
+      display: block;
+      text-align: center;
+      font-size: 55px;
+      font-weight: bold;
+      width: 80%;
+      color: white;
+      margin-left: 80px;
+    }
+
+    .research{
+      display: block;
+     font-size: 30px;
+     line-height: 30px;
+     text-align: center;
+     width: 80%;
+     color: white;
+     margin-left: 80px;
+    }
+
+    .graduate{
+      display: block;
+      text-align: center;
+      font-size: 45px;
+      color: white;
+      margin-left: 60px;
+    }
+    .under{
+      font-size: 30px;
+      margin-bottom: 0px;
+      display: block;
+      text-align: center;
+      color: white;
+      margin-left: 40px;
+    }
+  </style>
+
+  <header class="navbar">
+    <a href="http://127.0.0.1:5500/Javscript/java.html" class="h1">Stanford University </a>
+
+    <div class="right">
+      <button class="search1">&#x1F50D; Search</button>
+      <button onclick="stanford" class="button"><strong class="lines">&#9776;</strong><span class="menu">Menu</span> </button>
+    </div>
+  </header>
+  
+  <section class="hero"><h2 class="h2">STANFORD</h2></section>
+  
+  <section class="hero2"><p class="h3">Explore Stanford<span class="arrow">&#8964;</span></p></section>
+
+  <div class="scroll"><p class="p2">A Mission Defined by Possibility</p>
+  <div class="paragraph"><p class="p3">At Stanford, our mission of discovery and learning is energized by a spirit of optimism and possibility that dates to our founding. Here you’ll find a place of intellectual expansiveness, wide-ranging perspectives, and freedom to explore new lines of thinking. Buzzing with ideas and innovation, approaching questions with openness and curiosity, pursuing excellence in all we do – this is Stanford.</p></div>
+  
+  <div class="about-div"><button class="about-stanford">More about Stanford</button>
+
+  </div>
+  <div class="img-66"><p><span class="academics">Academics</span><span class="research">Preparing students to make meaningful contributions to society as engaged citizens and leaders in a complex world.</span>
+</p><img src="kk.jpg" class="img667"><p><span class="graduate">Undergraduate Education</span><span class="under">Rich learning experiences that provide a broad liberal arts foundation and deep subject-area expertise</span></p><img src="scc.jpg" class="img668"></div>
+
+  
+
+</body>
+    
